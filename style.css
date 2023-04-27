@@ -1,0 +1,57 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.mitte {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#farm {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+#farm img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media screen and (min-width: 800px) {
+    #farm {
+        height: 600px;
+    }
+}
+
+footer ul,
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+footer ul li a,
+nav ul li a {
+    font-weight: 600;
+    padding: 16px;
+}
+
+section {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+}
